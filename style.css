@@ -1,6 +1,18 @@
 .top {
-    width: 200px;
+    width: 50%;
     height: 75px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    outline: none;
+
+
+}
+
+.top:hover {
+    outline: none;
 }
 
 .red {
@@ -11,4 +23,5 @@
 li {
     background-color: darkolivegreen;
     margin: 2px 0;
+    line-height: auto;
 }
